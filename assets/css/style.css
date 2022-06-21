@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 header{
     position: relative;
     background-color: #262626;
@@ -16,7 +12,8 @@ header{
 .btn__buy-now{
     float: right;
     background: #82B440;
-    margin-right: 20px;
+    padding: 5px 20px;
+    margin: 2px 21px;
     color: white;
     border-radius: 5px;
     text-decoration: none;
@@ -27,9 +24,10 @@ header{
     box-shadow: 0 2px 0 #6f9a37;
     position: relative;
     font-size: 14px;
-    padding: 5px 20px;
+
     line-height: 1.5;
     top: 11px;
+    border: none;
 
 }
 .navigation{
@@ -76,6 +74,7 @@ header{
     position: relative;
     -webkit-animation: fadeInLeft 2s;
     animation: fadeInLeft 2s;
+ 
 }
 .text-h2{
     color: #FFF;
@@ -86,6 +85,7 @@ header{
     margin-bottom: 0;
     -webkit-animation: fadeInRight 2s;
     animation: fadeInRight 2s;
+   
 }
 hr {
     width: 50px;
@@ -172,8 +172,19 @@ header{
     text-transform: uppercase;
     margin-bottom: 0;
     position: relative;
-    -webkit-animation: fadeInLeft 2s;
-    animation: fadeInLeft 2s;
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.fadeIn {
+    animation-nam: fadeIn;
 }
 .text-h2{
     color: #FFF;
@@ -321,4 +332,178 @@ p {
 .about::selection {
     background-color: #AD00FF;
     color: #FFF;
+}
+.section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+    display: block;
+}
+.section-heading h2 {
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+h2 {
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 1.1;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px
+}
+
+strong {
+    font-weight: 700;
+}
+.services .section-content p {
+    padding-bottom: 100px;
+    text-align: center;
+
+}
+.text-centerrr{
+    background: white;
+    /* color: #AD00FF; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 95px;
+    font-size: x-large;
+    padding: 95px 200px;
+}
+.animated {
+    animation-fill-mode: both;
+}
+.section.dark h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 2 ;
+    padding: 0 5px;
+}
+h2 {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.section.dark.btn {
+    color: #fff;
+    border: 3px solid #fff;
+    margin-top: 30px;
+}
+.btn {
+    border-radius: 0;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background-color: transparent;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;
+    color: #FFF;
+    border: 3px solid #FFF;
+    margin-top: 30px;
+    padding: 10px 30px;
+}
+.btn:hover {
+    color: #AD00FF;
+    background-color: #fff;
+}
+.btn__buy-now:hover {  
+    background-color: #587038;
+
+ }
+ .icon {
+    cursor: pointer;
+ }
+ .font-fact {
+    font-weight: 100;
+    color: #111;
+ }
+.section-heading{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 204px;
+}
+.img-1{
+    width: 33.3%;
+    float: left;
+}
+.img-2{
+    width: 33.3%;
+    float: left;
+}
+.img-3{
+    width: 33.3%;
+    float: left;
+}
+.team .mask{
+    background-color: #AD00FF;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.team{
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+.team h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    padding-top: 120px;
+}
+.team p {
+    font-size: 15px;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    line-height: 2;
+}
+.seection-last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 300px;
+  
+}
+h2 {
+    font-weight: 100;
+
+}
+h3 {
+     margin-top: -35px;
+     font-weight: 100;
+     color: #fff;
+     font-size: x-larged;
+}
+.filter_group {
+    margin-bottom: 30px;
+}
+.section-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.text-filter {
+    color: var(--primary-color);
+    font-weight: 50;
+    font-size: medium;
+    padding: 0 450px;
+    cursor: pointer;
+
+}
+.filter_group .filter.active {
+    color: #56007F;
 }
