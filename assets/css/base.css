@@ -72,8 +72,7 @@ body {
     
 }
 
-element.style {
-}
+
 .work-item img {
     width: 100%;
     -webkit-transition: all 2s ease-in-out;
@@ -107,4 +106,23 @@ a {
     text-indent: 0px;
     text-shadow: none;
     display: inline-block;
+} 
+ .container2 {
+    width: 1170px;
+ }
+ .container2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row2 {
+    /* margin-right: -15px ;
+    margin-left: -15px; */
+    display: table;
+    content: " ";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }

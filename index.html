@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUCIO</title>
-    <link rel="shortcut icon" type="image/png" href="https://scontent.fhan2-2.fna.fbcdn.net/v/t39.30808-6/286983109_772905607059203_464691570689503873_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=VHJNf0JsYjAAX_foQdQ&_nc_ht=scontent.fhan2-2.fna&oh=00_AT90oIO8UH4lg71OAZy2cFmD2kS9pnshid-cmWMXqBsB5A&oe=62B7B6E9"/>
+    <link rel="shortcut icon" type="image/png" href="http://media.tinthethao.com.vn/files/nam.van/2017/11/22/lebron-james-dunking-0808.jpg"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/base.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
   <!-- navigation -->
     <header class="daudong">
+  
         <nav>
             <div class="nav__header">
                 <div class="logo">
@@ -27,13 +30,13 @@
         </nav>
         <div class="nav_h">
             <a href="index.html"><img  style="width:100px; margin-left: 60px; margin-top: 18px"  src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/logo_white.png" alt=""></a>
-            <ul>
-                <li><a href="" style="color: #C64CFF">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">SERVICES</a></li>
-                <li><a href="">TEAM</a></li>
-                <li><a href="">PORTFOLIO</a></li>
-                <li><a href="">CONTACT</a></li>
+            <ul style="list-style:none">
+                <li><a href="." style="color: #C64CFF">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#team">TEAM</a></li>
+                <li><a href="#team2">PORTFOLIO</a></li>
+                <li><a href="#cont">CONTACT</a></li>
             </ul>
         </div>
         
@@ -122,6 +125,7 @@
             </div>
             <!-- icon services -->
             <div class="row text-centerrr wow fadeIn animated" data-wow-duration="1s">
+            
                 <div class="fact">
                     <i class="fa-solid fa-desktop icon"style="color: #AD00FF ;margin-left:65px"></i>
                     
@@ -241,7 +245,7 @@
                 </div>
             </div>
             <!-- PORTFOLIO -->
-            <div id="team" class="section padding-top padding-bottom">
+            <div id="team2" class="section padding-top padding-bottom">
                 
                 <div class="section-heading">
                     <h2>OUR PORTFOLIO</h2>
@@ -258,7 +262,7 @@
             </div>
             <div class="section-content">
                 <div class="work-item-wrapper">
-                    <div class="row isotope" style="position: relative; height: 569.766px; margin: 0 -83px; margin-left:-26px ">
+                    <div class="row isotope" style="position: relative; height: 569.766px; margin: 0 -83px; margin-left:-55px ">
                         <div class="work-item web-design" style="position: absolute; left: 0px; top: 0px;">
                             <img src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/portfolio/work1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.">
                             <div class="image-overlay">
@@ -405,12 +409,12 @@
 
             </div>
             <!-- CLIENT -->
-            <div class="section clients">
+            <div class="clients">
 				<div class="section-content">
-					<div class="container">
-						<div class="row ">
+					<div class="container2">
+						<div class="row2 ">
 							<div >
-								<img class="moutain"  src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/clients/logo-client1.png" alt="">					
+								<img class="moutain" style="color:#777"  src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/clients/logo-client1.png" alt="">					
 							</div>
 							<div >
 								<img class="moutain1" src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/clients/logo-client2.png" alt="">
@@ -431,15 +435,130 @@
 					</div>
 				</div>
 			</div>
+            <!-- contact -->
+            <div id="cont" class=" cont padding-top padding-bottom">
+				<div class="cont-heading">
+					<h2 style="color:#333 ;">CONTACT</h2>
+					<hr>
+				</div>
+				<div class="cont-content">
+					<div class="cont-container">
+						<div class="row3">
+							<div class="cont__text-center">
+								<div class="contact-info">
+									<div class="">
+										<i class="fa-solid fa-location-dot icon2"style="color:var(--primary-color)"></i>
+										<h4 style="color:#333">ADDRESS</h4>
+										<p>123 Street, New York (USA)</p>
+									</div>
+									<div class="">
+										<i class="fa-solid fa-phone icon2" style="color:var(--primary-color)"></i>
+										<h4 style="color:#333">PHONE</h4>
+										<p>+123 456 789</p>
+									</div>
+									<div class="">
+										<i class="fa-solid fa-envelope icon2"style="color:var(--primary-color)" ></i>
+										<h4 style="color:#333">EMAIL</h4>
+										<p><a href="mailto:info@myemail.com">info@myemail.com</a></p>
+									</div>
+								</div>
+							</div>
+							<div class="cont__text-center">
+								<div class="contact-form">
+									<div class="alert"></div>
+									<form id="contact-form" action="#" method="post">
+										<div class="row32">
+											<div class="" style="padding-left: 82px;">
+												<label class="sr-only" for="name">Name:</label>	
+												<input class="name" type="text" id="name" name="name" placeholder="Name *" required="">
+											</div>
+											<div class="">
+												<label class="sr-only" for="email">Email:</label>
+												<input class="email"type="email" id="email" name="email" placeholder="Email *" required="">	
+											</div>
+										</div>
+										<div class="row32 text-right">
+											<div style=" margin-left: 176px;">
+												<div>
+                                                    <label class="sr-only" for="email">Message:</label>
+                                                </div>
+												<input class="meess"type="email" id="email" name="email" placeholder="Message *" required="">	
+												<div>
+                                                    <button type="submit" class="btn3" name="send" style="margin-top: 60px; margin-left: 900px;">SEND</button>
+                                                </div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		
            
         </div> 
+        <!-- social -->
+       <div class="social">
+        <div class="social-content">
+            <div class="social-container">
+                <div class="social-row">
+                    <div class="social__text-center" style="margin-top: -2px;">
+                        <img src="https://demo.riccardoborchi.it/crucio/HTML/assets/img/logo_white.png" alt="">
+                    </div>
+                </div>
+                <div class="social-row">
+                    <div class="social__text-center">
+                        <a href="">
+                            <i class="fa-brands fa-facebook-square icon-last"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-twitter-square icon-last"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-google-plus icon-last"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-linkedin icon-last"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-youtube-square icon-last"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-instagram icon-last"></i>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+       <!-- foot -->
+       <footer id="footer" class="foot" style="background-color:#56007F ;">
+        <div class="footer-content" >
+            <div class="footer-container">
+                <p class="copyright" style="color:white ;">© 2016. Crucio. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="back-to-top" style="display: block;">
+        <a href="#top"><i class="fa-solid fa-caret-up"></i></a>
+    </div>
 
     </div>
 
-    <script type="" src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+	<!-- <script type="text/javascript">	$("#show-animation").change(
+        function ()
+           {
+        if ( $(this).is(":checked") ) {
+            $("#header-canvas").show();
+        } else {
+            $("#header-canvas").hide();
+        }
+    })
+           
+    </script> -->
+
 </body>
 </html>
-
-<!-- git clone ...
-git commit -b"""
-git add . -->
